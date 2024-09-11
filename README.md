@@ -1,7 +1,7 @@
 # naipe_ouros
 Print faz desenho do naipe de ouros.
 
-exemplo:<code> 
+exemplo:<code> <p>
               * 
              ***
             *****
@@ -11,4 +11,4 @@ exemplo:<code>
             *****
              ***
               *
-<code>
+</p><code>
