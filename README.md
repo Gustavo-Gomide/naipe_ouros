@@ -11,4 +11,4 @@ exemplo:<code> <p>
             *****
              ***
               *
-</p><code>
+</p></code>
