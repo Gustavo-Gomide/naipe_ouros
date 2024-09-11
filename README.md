@@ -1,14 +1,13 @@
 # naipe_ouros
 Print faz desenho do naipe de ouros.
 
-abra o README - exemplo:<code>
-              * 
-             ***
-            *****
-           *******
-          *********
-           *******
-            *****
-             ***
-              *
-</code>
+exemplo:
+<p><code>              * </p>
+<p><code>             *** </p>
+<p><code>            ***** </p>
+<p><code>           ******* </p>
+<p><code>          ********* </p>
+<p><code>           ******* </p>
+<p><code>            ***** </p>
+<p><code>             *** </p>
+<p><code>              * </p>
