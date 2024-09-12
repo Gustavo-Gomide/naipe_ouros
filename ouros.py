@@ -30,13 +30,11 @@ def ouros(simbolo=' ', tamanho=11, simbolo_fundo=True):
                        + cor_reset
                        )
         # desenho parte de cima
-        print(f'{ 
-                 linha_antes_depois 
-                 + cor_fundo_simbolo 
-                 + linha 
-                 + cor_reset 
-                 + linha_antes_depois
-                 }')
+        print(f'{linha_antes_depois}'
+              f'{cor_fundo_simbolo}'
+              f'{linha}'
+              f'{cor_reset}' 
+              f'{linha_antes_depois}')
     # parte de baixo, triangulo invertido
     # faz loop em ordem decrescente a partir do 1° ímpar menor que o tamanho
     for i in range(tamanho - 2, 0, -2):
@@ -49,18 +47,16 @@ def ouros(simbolo=' ', tamanho=11, simbolo_fundo=True):
                        + cor_reset
                        )
         # desenho parte de baixo
-        print(f'{ 
-                 linha_antes_depois 
-                 + cor_fundo_simbolo 
-                 + linha 
-                 + cor_reset 
-                 + linha_antes_depois
-                 }')
+        print(f'{linha_antes_depois}'
+              f'{cor_fundo_simbolo}'
+              f'{linha}'
+              f'{cor_reset}' 
+              f'{linha_antes_depois}')
     # Linha de baixo *opcional
     print('\033[7;37m-' * (tamanho + 2) + '\033[m')
 
 
 ouros()
 ouros('*')
-ouros('a', 20)
+ouros('a', 32)
 ouros('+', simbolo_fundo=False)
